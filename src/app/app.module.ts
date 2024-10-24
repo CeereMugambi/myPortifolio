@@ -15,6 +15,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { CvComponent } from './cv/cv.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ReferencesComponent } from './references/references.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 
@@ -30,7 +31,8 @@ import { ReferencesComponent } from './references/references.component';
     SkillsComponent,
     CvComponent,
     ProjectsComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
