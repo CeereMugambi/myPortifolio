@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './references.component.scss'
 })
 export class ReferencesComponent {
+  references:any;
+  constructor() {
+  }
+
+  ngOnInit(): void {
+  }
 
 }
+
