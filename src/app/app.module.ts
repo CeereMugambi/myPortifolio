@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
+import { CvComponent } from './cv/cv.component';
 
 
 
@@ -24,7 +25,8 @@ import { SkillsComponent } from './skills/skills.component';
     HomeComponent,
     HeaderComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,
