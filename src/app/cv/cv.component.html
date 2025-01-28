@@ -12,6 +12,11 @@
                         <em class="font-italic">Bachelor of Computer Science<br>University of Nairobi</em>
                         <p class="year p-2 d-flex justify-content-center">2017 - 2022</p>
                     </li>
+                    <li>
+                        <h5>Diploma</h5>
+                        <em class="font-italic">Bachelor of Computer Science<br>University of Nairobi</em>
+                        <p class="year p-2 d-flex justify-content-center">2017 - 2019</p>
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -27,50 +32,58 @@
                                 <span *ngIf="!experience.detailIsDisplayed">+</span><span *ngIf="experience.detailIsDisplayed">-</span>Details</button>
                         </div>
                         <p *ngIf="experience.detailIsDisplayed">
+                             <strong>Technologies:</strong> <b>{{experience.technologies}}</b>
+                             <br>
+                             <br>
                             <span *ngFor="let mission of experience.missions;let index = index">
                                 <strong>Mission {{index+1}}: </strong>{{mission}} <br>
                             </span>
-                            <strong>Technologies:</strong> {{experience.technologies}}
                         </p>
                     </li>
 
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-12 aos-init aos-animate " data-aos="fade-up" data-aos-delay="300" style="margin-left: 20px;">
                 <div class="container row">
                     <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                         <h4><strong>Languages</strong></h4>
-                        <div class="noProgress langue">
+                        <div class="noProgress languages">
                             <span class=""><img src="assets/images/france-flag.png" width="20"
                                     alt="drapeau de la france"><strong> French</strong> <i class="val">
-                                        Fluent</i></span>
+                                        Beginner</i></span>
                         </div>
-                        <div class="noProgress langue">
+                        <div class="noProgress anguages">
                             <span class=""><img src="assets/images/united-kingdom-flag.png" width="20"
                                     alt="drapeau du royaume uni"><strong> English</strong> <i class="val"> Good Level</i></span>
                         </div>
                     </div>
                 </div>
                 <div class="container row">
-                    <div class="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                         <h4><strong>Center of interest</strong></h4>
-                        <div class="noProgress langue">
+                        <div class="noProgress languages">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> Sports </strong> <i class="val"> 5 years
-                                    Volley Ball</i>
+                                <fa-icon [icon]="swimmingIcon"></fa-icon><strong> Sports </strong> <i class="val"> 5 years
+                                    Swimming</i>
                             </span>
                         </div>
 
-                        <div class="noProgress langue">
+                        <div class="noProgress languages">
                             <span>
-                                <fa-icon [icon]="planeIcon"></fa-icon><strong> trips</strong> <i class="val">
-                                   Trips Countries </i>
+                                <fa-icon [icon]="planeIcon"></fa-icon><strong> Travelling </strong> <i class="val">
+                                   Worldwide </i>
                             </span>
                         </div>
-                        <div class="noProgress langue">
+                        <div class="noProgress languages">
                             <span>
-                                <fa-icon [icon]="gameIcon"></fa-icon><strong> Board games </strong> <i class="val">
-                                    board games Played </i>
+                                <fa-icon [icon]="cookingIcon"></fa-icon><strong> Cooking </strong> <i class="val">
+                                    Culinary Experimentation </i>
+                            </span>
+                        </div>
+                        <div class="noProgress languages">
+                            <span>
+                                <fa-icon [icon]="documentaryIcon"></fa-icon><strong> Documentaries </strong> <i class="val">
+                                Educational Media </i>
                             </span>
                         </div>
                     </div>
