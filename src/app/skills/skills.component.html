@@ -46,6 +46,26 @@
                     </div>
                 </div>
             </div>
+         
+        </div>
+
+        <div class="container mt-5">
+        <div class="row mt-5"></div>
+        <h2><strong>Other Skills</strong></h2>
+        <span class="bar-title mb-2"></span>
+        <div class="col-lg-4" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
+            <div id="skillgraph" class="panel panel-default">
+                <div class='row skill-row' *ngFor="let other of skills.others;">
+                    <div class="label d-flex flex-row">
+                        <span class='skillLabel'>{{other.name}}</span>
+                        <span class="skill-percent">{{other.percent}}%</span>
+                    </div>
+                    <span class='skillData-Wrapper'>
+                        <span [ngClass]="other.remark" class='skillData bg-rust'></span>
+                    </span>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 

@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   skills:any={
-    technologies:[{name:"Java, J2EE, Spring, C#",percent:90,remark:'excellent'}, {name:"PHP",percent:70,remark:'good'},{name:"Android",percent:90,remark:'excellent'},{name:"Python, C++",percent:70,remark:'very-good'}, {name:"JavaScript, BootStrap, Angular", percent:90,remark:'excellent'}],
-    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"Office",percent:90,remark:'excellent'},{name:"Linux, Windows",percent:70,remark:'very-good'},{name:"MySql, PgSql",percent:90,remark:'excellent'},{name:"Docker, Kubernetes",percent:50,remark:'average'}],
-    methodologies:[{name:"Scrum",percent:70,remark:'very-good'},{name:"Uml",percent:90,remark:'excellent'},{name:"Disign Thinking",percent:70,remark:'good'},{name:"TDD",percent:90,remark:'excellent'},{name:"DevOps",percent:50,remark:'average'}]
+    technologies:[{name:"Javascript,Typescript",percent:90,remark:'excellent'}, {name:"HTML,CSS,SASS,SCSS",percent:90,remark:'excellent'},{name:"JSON",percent:90,remark:'excellent'},{name:"Angular Framework",percent:90,remark:'excellent'},{name:"Python",percent:70,remark:'very-good'}],
+    tools:[{name:"Git,Github",percent:90,remark:'excellent'},{name:"Linux, Windows",percent:70,remark:'very-good'},{name:"Docker, Kubernetes",percent:50,remark:'average'},{name:"Microsoft Azure",percent:90,remark:'excellent'},{name:"Chrome Dev Tools",percent:90,remark:'excellent'},{name:"Visual Studio Code",percent:90,remark:'excellent'}],
+    methodologies:[{name:"Responsive Design",percent:90,remark:'excellent'},{name:"Component Based Architecture",percent:90,remark:'excellent'},{name:"Agile",percent:90,remark:'excellent'},{name:"Design Thinking",percent:70,remark:'very-good'},{name:"Versioning",percent:90,remark:'excellent'},{name:"Testing",percent:50,remark:'average'}],
+    others:[{name:"Version Control Worklflow",percent:90,remark:'excellent'}, {name:"API Handling",percent:90,remark:'excellent'},{name:"JSON",percent:90,remark:'excellent'},{name:"Performance Optimization",percent:90,remark:'excellent'},{name:"Debugging and Monitoring",percent:70,remark:'very-good'},{name:"Localization and Internationalization",percent:70,remark:'very-good'}],
+  
   };
 
   constructor() {
