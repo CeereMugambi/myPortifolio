@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { referencesEn } from '../api/referencesEN';
+
 
 @Component({
   selector: 'app-references',
@@ -6,12 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './references.component.scss'
 })
 export class ReferencesComponent implements OnInit {
-  references:any;
+  references:any=referencesEn;
   constructor() {
+        this.references=referencesEn;
   }
-
   ngOnInit(): void {
   }
 
 }
-
