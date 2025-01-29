@@ -20,6 +20,7 @@ export class ProjectsComponent implements OnInit{
   ngAfterViewInit(){
     console.log("after view init");
     this.onMouse("myPortfolio-link", "portfoliodashboard-img");
+    this.onMouse("weatherApp-link", "weatherapp-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }
