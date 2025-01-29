@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { projectsEn } from '../api/projectsEN';
 
 @Component({
   selector: 'app-projects',
@@ -6,21 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent implements OnInit{
-  projects:any[]=[];
+  projects:any[]=projectsEn;
   venobox: any;
   constructor() {
-  }
-
-  ngOnInit(): void {  
+        this.projects=projectsEn;
+      }
+  
+  ngOnInit(): void {
+    
   }
 
   ngAfterViewInit(){
     console.log("after view init");
-    this.onMouse("portfolio-link", "portfolio-img");
-    this.onMouse("teamTraveler-link", "teamTraveler-img");
-    this.onMouse("mautic-link", "mautic-img");
-    this.onMouse("pokedex-link", "pokedex-img");
-    this.onMouse("riddle-link", "riddle-img");
+    this.onMouse("myPortfolio-link", "portfoliodashboard-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
   }
@@ -51,4 +50,3 @@ export class ProjectsComponent implements OnInit{
     );
   }
 }
-
