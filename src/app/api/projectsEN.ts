@@ -37,4 +37,19 @@ export const projectsEn = [
         codeSourceUrl:'https://github.com/CeereMugambi/WeatherAppFinal',
         detailIsDisplayed: false,
     },
+    {
+        id:"AngularTradingBot",
+        name: "NgTradingBot",
+        technologies: 'Javascript, Typescript, HTML, CSS, SASS,Angular18,Angular Material',
+        images: [
+            {
+                title:'AngularTradingBot',
+                src: "assets/images/tradingBot.png",
+            },
+        ],
+        url: "https://trading-bot-eight-inky.vercel.app/",
+        detail:"This trading bot isfully automated trading bot built with Angular and TypeScript, utilizing a custom algorithm and the Alpaca API for real-time stock trading. Designed for seamless execution, dynamic strategy adjustments, and efficient order management.",
+        codeSourceUrl:'https://github.com/CeereMugambi/tradingBot',
+        detailIsDisplayed: false,
+    },
 ];
