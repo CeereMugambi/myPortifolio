@@ -48,8 +48,23 @@ export const projectsEn = [
             },
         ],
         url: "https://trading-bot-eight-inky.vercel.app/",
-        detail:"This trading bot isfully automated trading bot built with Angular and TypeScript, utilizing a custom algorithm and the Alpaca API for real-time stock trading. Designed for seamless execution, dynamic strategy adjustments, and efficient order management.",
+        detail:"This trading bot is fully automated trading bot built with Angular and TypeScript, utilizing a custom algorithm and the Alpaca API for real-time stock trading. Designed for seamless execution, dynamic strategy adjustments, and efficient order management.",
         codeSourceUrl:'https://github.com/CeereMugambi/tradingBot',
+        detailIsDisplayed: false,
+    },
+    {
+        id:"employment-portfolio",
+        name: "employment-portfolio",
+        technologies: 'Javascript, Typescript, HTML, CSS, SASS,Angular18,Angular Material',
+        images: [
+            {
+                title:'employmentPortfolio',
+                src: "assets/images/employmentPortfolio.png",
+            },
+        ],
+        url: "https://portfolio-r5bg.vercel.app/home",
+        detail:"The Employment Portfolio is a dynamic web app built with HTML, SCSS, and TypeScript, featuring smooth animations for an interactive user experience. It showcases skills, projects, and professional details with responsive design, seamless transitions, and optimized performance. Fully deployed, it highlights front-end expertise through modular components and structured styling.",
+        codeSourceUrl:'https://github.com/CeereMugambi/portfolio',
         detailIsDisplayed: false,
     },
 ];
