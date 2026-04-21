@@ -21,6 +21,8 @@ export class ProjectsComponent implements OnInit{
     console.log("after view init");
     this.onMouse("myPortfolio-link", "portfoliodashboard-img");
     this.onMouse("weatherApp-link", "weatherapp-img");
+    this.onMouse("Transix-pos-link", "Home-img");
+    this.onMouse("KashWise-link", "Dashboard-img");
     this.onMouse("AngularTradingBot-link", "AngularTradingBot-img");
     this.onMouse("employment-portfolio-link", "employmentPortfolio-img");
 
